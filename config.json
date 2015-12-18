@@ -1,0 +1,16 @@
+{
+  "envs": {
+    "dev": {
+      "host": "104.40.135.77",
+      "users": {
+        "www-data": "LJMvkDdMaPYGks3b"
+      }
+    },
+    "qa": {
+    	"host": "104.40.219.147",
+    	"users": {
+    		"www-data": "gAcw9KRNaebkAqgb"
+    	}
+    }
+  }
+}
