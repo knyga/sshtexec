@@ -3,13 +3,19 @@
     "dev": {
       "host": "104.40.135.77",
       "users": {
-        "www-data": "LJMvkDdMaPYGks3b"
+        "www-data": "password"
       }
     },
     "qa": {
     	"host": "104.40.219.147",
     	"users": {
-    		"www-data": "gAcw9KRNaebkAqgb"
+    		"www-data": "password"
+    	}
+    },
+    "live": {
+    	"host": "104.40.209.94",
+    	"users": {
+    		"www-data": "password"
     	}
     }
   }
