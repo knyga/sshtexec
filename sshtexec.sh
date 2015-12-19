@@ -1,4 +1,4 @@
 #!/bin/bash
-MYDIR="`dirname \"$0\"`"
-cd $MYDIR
+DIR=`dirname \`readlink "$0"\``
+cd $DIR
 node sshtexec abc "$@"
