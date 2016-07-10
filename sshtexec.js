@@ -1,3 +1,9 @@
+/**
+ * Provides model creation and search methods
+ * @author Oleksandr Knyga <oleksandrknyga@gmail.com>
+ * @license Apache License 2.0 - See file 'LICENSE.md' in this project.
+ */
+
 var envs = require(__dirname + '/config.json').envs;
 var generateCommand = require(__dirname + '/src/generate-command');
 var parseArgv = require(__dirname + '/src/parse-argv');

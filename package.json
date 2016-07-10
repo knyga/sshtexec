@@ -1,7 +1,7 @@
 {
   "name": "sshtexec",
   "version": "1.0.0",
-  "description": "Execute ssh commands on remote server based on environment",
+  "description": "Tool to run (execute) commands on preconfigured set of remote machines via ssh. Could be used in combination with ci tool like jenkins or bamboo.",
   "main": "sshtexec.js",
   "scripts": {
     "test": "mocha -R spec --timeout 5000"
@@ -10,6 +10,15 @@
     "assert": "^1.3.0",
     "mocha": "^2.3.4"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Oleksandr Knyga <oleksandrknyga@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "ssh",
+    "bamboo",
+    "jenkins",
+    "execute",
+    "run",
+    "task"
+  ],
+  "license": "Apache License, Version 2.0"
 }
