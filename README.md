@@ -7,6 +7,9 @@ SSHtexec - tool to run (execute) commands on preconfigured set of remote machine
 3. Make sshtexec executable: `chmod +x sshtexec.sh`.
 4. Optional. Make sshtexec global: `ln -s ...full_path_to_sshtexec.sh /usr/local/bin/sshtexec`.
 
+###Use
+In your ci tool you can create tasks to execute scripts: `sshtexec -e=live -u=ubuntu bash /ddsdc1/www/api.example/deploy.sh -f`. It will allow you to do deployments easier.
+
 ###Licence
 Copyright 2016 Oleksandr Knyga <oleksandrknyga@gmail.com>
 
