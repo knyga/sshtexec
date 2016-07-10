@@ -1,21 +1,21 @@
 {
   "envs": {
     "dev": {
-      "host": "104.40.135.77",
+      "host": "216.58.214.238",
       "users": {
-        "www-data": "password"
+        "ubuntu": "password"
       }
     },
     "qa": {
-    	"host": "104.40.219.147",
+    	"host": "216.58.214.237",
     	"users": {
-    		"www-data": "password"
+    		"ubuntu": "password"
     	}
     },
     "live": {
-    	"host": "104.40.209.94",
+    	"host": "216.58.214.236",
     	"users": {
-    		"www-data": "password"
+    		"ubuntu": "password"
     	}
     }
   }
