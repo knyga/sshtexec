@@ -2,10 +2,11 @@
 SSHtexec - tool to run (execute) commands on preconfigured set of remote machines via ssh. Could be used in combination with ci tool like jenkins or bamboo.
 
 ###Installation
-1. Install module: `npm install sshtexec`.
-2. Copy config.json.dist to config.json and edit environments list: 'cp config.json.dist config.json'.
-3. Make sshtexec executable: `chmod +x sshtexec.sh`.
-4. Optional. Make sshtexec global: `ln -s ...full_path_to_sshtexec.sh /usr/local/bin/sshtexec`.
+1. `apt-get install sshpass`
+2. Install module: `npm install sshtexec`.
+3. Copy config.json.dist to config.json and edit environments list: 'cp config.json.dist config.json'.
+4. Make sshtexec executable: `chmod +x sshtexec.sh`.
+5. Optional. Make sshtexec global: `ln -s ...full_path_to_sshtexec.sh /usr/local/bin/sshtexec`.
 
 ###Use
 In your ci tool you can create tasks to execute scripts: `sshtexec -e=live -u=ubuntu bash /ddsdc1/www/api.example/deploy.sh -f`. It will allow you to do deployments easier.
