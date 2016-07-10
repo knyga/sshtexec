@@ -1,6 +1,6 @@
 {
   "name": "sshtexec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool to run (execute) commands on preconfigured set of remote machines via ssh. Could be used in combination with ci tool like jenkins or bamboo.",
   "main": "sshtexec.js",
   "scripts": {
